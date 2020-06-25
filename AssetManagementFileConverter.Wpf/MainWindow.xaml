@@ -1,0 +1,25 @@
+﻿<Window x:Class="MPSAssetManagementFileConverter.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MPSAssetManagementFileConverter.Wpf"
+        mc:Ignorable="d"
+        Title="Asset Management Converter" Height="521" Width="800">
+    <StackPanel HorizontalAlignment="Left" Width="646" Orientation="Vertical" Margin="10,10,0,10">
+
+        <Label>Input File</Label>
+        <Button Click="Button_Click_Select_File" Background="#FFDDDDDD" Width="200" Height="30" HorizontalAlignment="Left" VerticalAlignment="Stretch">Select File</Button>
+        <TextBlock Text="" TextWrapping="Wrap" Name="inputFileNameTextBlock" HorizontalAlignment="Left" Margin="15,0,0,0"/>
+        <Label Margin="0,20,0,0">Output File</Label>
+        <TextBox Name="outputFileNameTextBox" Margin="15,0,0,0"></TextBox>
+        <Label Margin="0,20,0,0">Company</Label>
+        <TextBox Name="companyTextBox" Margin="15,0,0,0"></TextBox>
+        <Label Margin="0,20,0,0">CSV Headers</Label>
+        <TextBox Name="csvHeadersTextBox" Margin="15,0,0,0"></TextBox>
+        <Button Background="#FFDDDDDD" Width="200" Height="30" Content="Create CSV" HorizontalAlignment="Left" Margin="10,20,10,10" Click="Button_Click_Create_CSV"/>
+        <TextBlock Name="messageTextBlock" Text="" TextWrapping="Wrap" Margin="20,10,0,0"/>
+        <Button Background="#FFDDDDDD" Width="200" Height="30" Content="Open CSV" Name="openCsvButton" HorizontalAlignment="Left" Margin="10,20,10,10" Click="Button_Click_Open_CSV" Visibility="Hidden"/>
+        
+    </StackPanel>
+</Window>
