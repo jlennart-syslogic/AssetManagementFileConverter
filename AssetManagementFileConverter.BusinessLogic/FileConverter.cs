@@ -93,6 +93,11 @@ namespace MPSAssestManagementFileConverter.BusinessLogic
 
         private string EscapeCSVText(string data)
         {
+            if (string.IsNullOrEmpty(data))
+            {
+                return string.Empty;
+            }
+
             if (data.Contains("\""))
             {
                 data = data.Replace("\"", "\"\"");

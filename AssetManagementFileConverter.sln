@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPSAssestManagementFileConv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPSAssetManagementFileConverter.Wpf", "AssetManagementFileConverter.Wpf\MPSAssetManagementFileConverter.Wpf.csproj", "{B8C0C096-F08D-43A2-839F-37321ED481FB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetManagementUserFileConverter", "AssetManagementUserFileConverter\AssetManagementUserFileConverter.csproj", "{422E94A1-895F-4BFF-989A-88EAF303F03A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B8C0C096-F08D-43A2-839F-37321ED481FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8C0C096-F08D-43A2-839F-37321ED481FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8C0C096-F08D-43A2-839F-37321ED481FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422E94A1-895F-4BFF-989A-88EAF303F03A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422E94A1-895F-4BFF-989A-88EAF303F03A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422E94A1-895F-4BFF-989A-88EAF303F03A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422E94A1-895F-4BFF-989A-88EAF303F03A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
